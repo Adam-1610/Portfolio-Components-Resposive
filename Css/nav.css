@@ -1,4 +1,3 @@
-@import url(/Css/global.css);
 /* Navbar */
 
 /* Components */
@@ -29,3 +28,23 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    border-bottom: 1px solid white;
+}
+
+/* Media */
+
+/* Mobile */
+@media only screen and (max-width:550px) {
+    li {
+        font-size: small;
+    }
+}
+
+
+/* Tablet */
+@media only screen and (min-width:551px) and (max-width:1300px){
+    li {
+        font-size: large;
+    }
+}
