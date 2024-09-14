@@ -37,8 +37,13 @@
     padding: 17.5px;
 }
 
+/* Utility */
+
 .btn-light {
     background: black;
 }
 
-/* Utility */
+a {
+    color: white;
+    text-decoration: none;
+}
