@@ -1,0 +1,178 @@
+
+
+/* Banner-1 */
+
+/* Components */
+
+.main-head {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em !important;
+    border: 1px solid white;
+}
+
+.banner-container {
+    display: flex;
+    height: 40vh;
+    justify-content: center !important;
+    background-color: black;
+    border: 1px solid white;
+    margin-bottom: 3rem !important;
+}
+
+    
+.banner {
+    display: flex;
+    width: 100vw;
+    padding: 10px;
+    gap:20px;
+    justify-content: space-between;
+}
+
+.item1 {
+    display: flex;
+    width:25%;
+    background-image: url(/Images/Me.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    filter: grayscale(85%);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 3rem !important; 
+    justify-content: center;
+    transition: ease-in-out 500ms;
+}
+
+.item1:hover {
+    transform: scale(1.025);
+    transition: ease-in-out 500ms;
+
+}
+
+.item2 {
+    display: flex;
+    width:25%;
+    background-image: url(/Images/Projects.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    filter: grayscale(85%);
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+    margin-bottom: 3rem !important; 
+    justify-content: center;
+    transition: ease-in-out 500ms;
+}
+
+.item2:hover {
+    transform: scale(1.025);
+    transition: ease-in-out 500ms;
+
+}
+
+.item3 {
+    display: flex;
+    width:25%;
+    background-image: url(/Images/Certifivations.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    filter: grayscale(85%);
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+    margin-bottom: 3rem !important; 
+    justify-content: center;
+    transition: ease-in-out 500ms;
+}
+
+.item3:hover {
+    transform: scale(1.025);
+    transition: ease-in-out 500ms;
+
+}
+
+.item4 {
+    display: flex;
+    width:25%;
+    background-image: url(/Images/Cta.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    filter: grayscale(85%);
+    padding-left: 17.5px;
+    padding-right: 17.5px;
+    margin-bottom: 3rem !important; 
+    justify-content: center;
+    transition: ease-in-out 500ms;
+}
+
+.item4:hover {
+    transform: scale(1.025);
+    transition: ease-in-out 500ms;
+
+}
+
+/* Utility */
+
+.wrapper-2 {
+    width: 70%;
+}
+
+.text-box-2 h2  { 
+font-size: large;
+text-align: center;
+color: white;
+margin-top: 300%;
+}
+
+.cta-head {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em !important;
+    border: 1px solid white;
+}
+
+/* Media */
+
+/* Mobile */
+@media only screen and (max-width:550px) {}
+    
+
+
+/* Tablet */
+@media only screen and (min-width:551px) and (max-width:1300px){}
+
+/* Banner-2 */
+
+/* Components */
+
+.banner-container-2 {
+    background-image: url(/Images/Cta.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    background-position-y: 50%;
+    filter: grayscale(65%);
+    display: flex;
+    height: 50vh;
+    align-content: center;
+    margin-bottom: 3rem !important;
+}
+
+.in-container-2 {
+    display: flex;
+    width: 100%;
+    padding-right: 17.5px;
+    padding-left: 17.5px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -17.5px;
+    margin-left: -17.5px;
+    align-items: center;
+}
