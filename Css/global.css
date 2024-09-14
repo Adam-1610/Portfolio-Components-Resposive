@@ -1,7 +1,7 @@
 :root {
-background-color: var(black);
-color: var(white);
-text-decoration: var(none);
+background-color: black;
+color: white;
+text-decoration: none;
 }
 
 body {
@@ -9,7 +9,3 @@ body {
     color: var(white);
 }
 
-a {
-    color: var(white);
-    text-decoration: var(none);
-}

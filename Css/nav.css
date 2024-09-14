@@ -1,14 +1,6 @@
-body {
-    background-color: black;
-    color: white;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
+@import url(/Css/global.css);
 /* Navbar */
+
 /* Components */
 
 .nav-container {
@@ -31,3 +23,9 @@ li {
     text-align: center;
     font-size: large;
 }
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
