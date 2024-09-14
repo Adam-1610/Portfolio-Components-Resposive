@@ -115,6 +115,15 @@
 
 /* Utility */
 
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+}
+
 .wrapper-2 {
     width: 70%;
 }
@@ -123,14 +132,8 @@
 font-size: large;
 text-align: center;
 color: white;
-margin-top: 300%;
-}
-
-.cta-head {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 3em !important;
-    border: 1px solid white;
+align-items: center;
+margin-top: 105%;
 }
 
 /* Media */
@@ -146,6 +149,13 @@ margin-top: 300%;
 /* Banner-2 */
 
 /* Components */
+
+.cta-head {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em !important;
+    border: 1px solid white;
+}
 
 .banner-container-2 {
     background-image: url(/Images/Cta.jpg);
@@ -176,3 +186,19 @@ margin-top: 300%;
     margin-left: -17.5px;
     align-items: center;
 }
+
+/* Utility */
+
+.btn-light {
+    background-color: black;
+}
+
+/* Media */
+
+/* Mobile */
+@media only screen and (max-width:550px) {}
+    
+
+
+/* Tablet */
+@media only screen and (min-width:551px) and (max-width:1300px){}
