@@ -1,0 +1,23 @@
+/* Footer */
+
+/* Components */
+
+.footer-container {
+    display: flex;
+    height: 5vh;
+    border-top: 1px solid white;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    padding-right: 17.5px;
+    padding-left: 17.5px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.footer-head {
+    display: flex;
+    justify-content: center;
+}
