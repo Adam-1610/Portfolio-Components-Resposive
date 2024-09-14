@@ -1,0 +1,44 @@
+/* Hero */
+
+/* Components */
+
+.hero-container {
+    background-image: url(/Images/Hero.jpg);
+    background-size: cover;
+    background-position-x: 50%;
+    filter: grayscale(85%);
+    display: flex;
+    height: 50vh;
+    align-items: center;
+    margin-bottom: 3em !important;
+}
+
+.in-container {
+    display: flex;
+    width: 100%;
+    padding-right: 17.5px;
+    padding-left: 17.5px;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -17.5px;
+    margin-left: -17.5px;
+}
+
+.col-align {
+    position: relative;
+    width: 100%;
+    padding-right: 17.5px;
+    padding: 17.5px;
+}
+
+.btn-light {
+    background: black;
+}
+
+/* Utility */
