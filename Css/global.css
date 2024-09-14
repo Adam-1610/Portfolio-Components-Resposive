@@ -1,0 +1,15 @@
+:root {
+background-color: var(black);
+color: var(white);
+text-decoration: var(none);
+}
+
+body {
+    background-color: var(black);
+    color: var(white);
+}
+
+a {
+    color: var(white);
+    text-decoration: var(none);
+}
