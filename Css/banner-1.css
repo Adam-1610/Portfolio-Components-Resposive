@@ -17,7 +17,6 @@
     height: 40vh;
     justify-content: center !important;
     background-color: black;
-    border: 1px solid white;
     margin-bottom: 3rem !important;
 }
 
@@ -27,13 +26,13 @@
     flex-wrap: wrap;
     width: 100vw;
     padding: 10px;
-    gap:20px;
+    gap:10px;
     justify-content: space-between;
 }
 
 .item1 {
     display: flex;
-    width:25%;
+    width:20%;
     background-image: url(/Images/Me.jpg);
     background-size: cover;
     background-position-x: 50%;
@@ -43,6 +42,7 @@
     padding-right: 10px;
     margin-bottom: 3rem !important; 
     justify-content: center;
+    align-items: center;
     transition: ease-in-out 500ms;
 }
 
@@ -54,7 +54,7 @@
 
 .item2 {
     display: flex;
-    width:25%;
+    width:20%;
     background-image: url(/Images/Projects.jpg);
     background-size: cover;
     background-position-x: 50%;
@@ -64,6 +64,7 @@
     padding-right: 17.5px;
     margin-bottom: 3rem !important; 
     justify-content: center;
+    align-items: center;
     transition: ease-in-out 500ms;
 }
 
@@ -75,7 +76,7 @@
 
 .item3 {
     display: flex;
-    width:25%;
+    width:20%;
     background-image: url(/Images/Certifivations.jpg);
     background-size: cover;
     background-position-x: 50%;
@@ -85,6 +86,7 @@
     padding-right: 17.5px;
     margin-bottom: 3rem !important; 
     justify-content: center;
+    align-items: center;
     transition: ease-in-out 500ms;
 }
 
@@ -96,7 +98,7 @@
 
 .item4 {
     display: flex;
-    width:25%;
+    width:20%;
     background-image: url(/Images/Cta.jpg);
     background-size: cover;
     background-position-x: 50%;
@@ -106,6 +108,7 @@
     padding-right: 17.5px;
     margin-bottom: 3rem !important; 
     justify-content: center;
+    align-items: center;
     transition: ease-in-out 500ms;
 }
 
@@ -134,16 +137,67 @@ a:hover {
 font-size: large;
 text-align: center;
 color: white;
-align-items: center;
 }
 
 /* Media */
 
 /* Mobile */
-@media only screen and (max-width:550px) {}
+@media only screen and (max-width:550px) {
+
+    .banner-container {
+         height: 100vh;
+         border: none;
+    }
+
+    .item1 {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .item2 {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .item3 {
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .item4 {
+        height: 100vh;
+        width: 100vw;
+    }
+}
     
 
 
 /* Tablet */
-@media only screen and (min-width:551px) and (max-width:1300px){}
+@media only screen and (min-width:551px) and (max-width:1300px){
+
+    .banner-container {
+     height: 100vh;
+     width: 100vw;
+   }
+
+   .item1 {
+       height: 50vh;
+       width: 45vw;
+   }
+
+   .item2 {
+       height: 50vh;
+       width: 45vw;
+   }
+
+   .item3 {
+       height: 50vh;
+       width: 45vw;
+   }
+
+   .item4 {
+       height: 50vh;
+       width: 45vw;
+   }
+}
 
