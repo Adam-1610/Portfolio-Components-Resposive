@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Navbar */
+/* Components */
+
+.nav-container {
+    display: flex;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    padding: 5px;
+    gap: 20px;
+}
+
+/* Utility */
+
+li {
+    list-style-type: none;
+    text-align: center;
+    font-size: large;
+}
